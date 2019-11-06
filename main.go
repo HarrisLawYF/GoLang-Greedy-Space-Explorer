@@ -123,7 +123,7 @@ func main() {
 		fmt.Print("Coordinate Y has wrong value: ",err)
 	}
 	if(y < 0 || y > map_size){
-		x = 0
+		y = 0
 	}
 
 	ground := ground.Create(map_size)
